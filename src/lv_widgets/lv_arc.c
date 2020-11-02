@@ -189,7 +189,7 @@ void lv_arc_set_start_angle(lv_obj_t * arc, uint16_t start)
  * @param arc pointer to an arc object
  * @param start the start angle [0..360]
  */
-void lv_arc_set_end_angle(lv_obj_t * arc, uint16_t end)
+void lv_arc_set_end_angle(lv_obj_t * arc, lv_anim_value_t end)
 {
     LV_ASSERT_OBJ(arc, LV_OBJX_NAME);
 

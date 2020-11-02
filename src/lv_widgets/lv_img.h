@@ -126,7 +126,7 @@ void lv_img_set_angle(lv_obj_t * img, int16_t angle);
  * - 128 half size
  * - 512 double size
  */
-void lv_img_set_zoom(lv_obj_t * img, uint16_t zoom);
+void lv_img_set_zoom(lv_obj_t * img, lv_anim_value_t zoom);
 
 /**
  * Enable/disable anti-aliasing for the transformations (rotate, zoom) or not
